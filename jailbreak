@@ -19,14 +19,14 @@ if [ $resp -eq 1 ]
    sudo apt install ./FutureRestore-GUI-Debian-1.98.2.deb -y > /dev/null
    git clone https://github.com/tihmstar/libgeneral &> /dev/null
    cd libgeneral
-   sudo ./autogen.sh > /dev/null
+   sudo ./autogen.sh &> /dev/null
    sudo make &> /dev/null
    sudo make install &> /dev/null
    cd ..
    git clone https://github.com/tihmstar/usbmuxd2 &> /dev/null
    cd usbmuxd2
    printf "\n[*] Compilando USBMUXD2...\n\n"
-   sudo ./autogen.sh > /dev/null
+   sudo ./autogen.sh &> /dev/null
    make &> /dev/null
    make install &> /dev/null
    printf "\n[+] Dependencias instaladas, iniciando servico USBMUXD...\n"
