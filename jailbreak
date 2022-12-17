@@ -22,6 +22,7 @@ if [ $resp -eq 1 ]
    sudo ./autogen.sh > /dev/null
    sudo make &> /dev/null
    sudo make install &> /dev/null
+   cd ..
    git clone https://github.com/tihmstar/usbmuxd2 &> /dev/null
    cd usbmuxd2
    echo -e "\033[0;31m[*] Compilando USBMUXD2..."
