@@ -11,6 +11,7 @@ read resp
 if [ $resp -eq 1 ]
  then
    echo -e "\033[0;37m[*] Instalando Dependencias pode demorar um pouco..."
+   sudo apt-get -o Acquire::Check-Valid-Until=false -o Acquire::Check-Date=false update > /dev/null
    sudo apt update > /dev/null
    sudo apt install git -y > /dev/null
    sudo apt-get install sudo gcc bash xterm wget python3-pip libusb-1.0-0 libusb-1.0-0-dev libadolc2 libusbmuxd-tools libtool libtool-bin autoconf automake libimobiledevice* make -y > /dev/null
