@@ -5,6 +5,7 @@
 echo "==============================="
 echo " Bem-vindo ao Auto-Palera1n!"
 echo "==============================="
+echo "Voce escolheu o iOS $1"
 echo "Digite 1 para iniciar ou 0 para sair"
 read resp
 if [ $resp -eq 1 ]
