@@ -19,6 +19,7 @@ if [ $resp -eq 1 ]
    sudo apt install ./FutureRestore-GUI-Debian-1.98.2.deb -y > /dev/null
    git clone https://github.com/tihmstar/libgeneral &> /dev/null
    cd libgeneral
+   printf "\n[*] Compilando LIBGENERAL...\n\n"
    sudo ./autogen.sh &> /dev/null
    sudo make &> /dev/null
    sudo make install &> /dev/null
