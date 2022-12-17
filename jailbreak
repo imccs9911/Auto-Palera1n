@@ -34,7 +34,7 @@ if [ $resp -eq 1 ]
    printf "\n[+] Dependencias instaladas!\n"
    sleep 1
    systemctl stop usbmuxd
-   xterm -e bash -c 'printf "Por favor nao feche esta janela!\n\n"; usbmuxd; read' &
+   xterm -e bash -c 'printf "Por favor nao feche esta janela!\n\n"; usbmuxd -f -p; read' &
    cd ..
    echo -e "\n[*] Baixando Palera1n...\n"
 
