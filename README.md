@@ -5,6 +5,8 @@ auto jailbreak using palera1n
 
 <h4>Funciona em qualquer distro linux baseada no ubuntu 22.04 pra cima de preferencia Linux mint 21, 20.04 nao e suportado!</h4>
 
+<code>sudo apt install git -y</code>
+
 <code>git clone https://github.com/Cozmo007/Auto-Palera1n</code>
 
 <code>cd Auto-Palera1n</code>
