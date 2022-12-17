@@ -1,0 +1,42 @@
+#!/bin/bash
+
+# Funciona apenas apartir de qualquer distro baseada no ubuntu 22.04 pra cima.
+
+echo "==============================="
+echo " Bem-vindo ao Auto-Palera1n!"
+echo "==============================="
+echo "Digite 1 para iniciar ou 0 para sair"
+read resp
+if [ $resp -eq 1 ]
+ then
+   echo -e "\033[0;31m[*] Instalando Dependencias pode demorar um pouco..."
+   sudo apt update > /dev/null
+   sudo apt-get install sudo gcc wget git python3-pip libadolc2 libusbmuxd-tools libtool libtool-bin autoconf automake libimobiledevice* make -y > /dev/null
+   sudo pip install pyimg4 &> /dev/null
+   wget http://nz2.archive.ubuntu.com/ubuntu/pool/main/o/openssl/libssl1.1_1.1.1f-1ubuntu2.16_amd64.deb &> /dev/null
+   wget https://github.com/CoocooFroggy/FutureRestore-GUI/releases/download/v1.98.2/FutureRestore-GUI-Debian-1.98.2.deb &> /dev/null
+   sudo apt install ./libssl1.1_1.1.1f-1ubuntu2.16_amd64.deb -y > /dev/null
+   sudo apt install ./FutureRestore-GUI-Debian-1.98.2.deb -y > /dev/null
+   git clone https://github.com/tihmstar/usbmuxd2 &> /dev/null
+   cd usbmuxd2
+   echo -e "\033[0;31m[*] Compilando USBMUXD2..."
+   sudo ./autogen.sh > /dev/null
+   make &> /dev/null
+   make install &> /dev/null
+   echo -e "\033[0;31m[+] Dependencias instaladas, iniciando servido USBMUXD..."
+   sleep 1
+   sudo systemctl stop usbmuxd
+   sudo usbmuxd &>/dev/null
+   cd ..
+   echo -e "\033[0;31m[*] Baixando Palera1n..."
+
+   git clone https://github.com/palera1n/palera1n &> /dev/null
+   cd palera1n
+   printf "\033[0;32m[+] Digite sua versao do iOS ex: 16.1 \n"
+   read iosv
+   printf "\033[1;37m[*] Conecte seu aparelho e espere e siga os procedimentos a baixo\n"
+   sudo ./palera1n.sh --tweaks $iosv
+else
+   echo "[*] Saindo..."
+   exit
+fi
