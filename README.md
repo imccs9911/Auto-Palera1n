@@ -19,13 +19,11 @@ auto jailbreak using palera1n
 
 <code>sudo bash jailbreak 16.1</code>
 
-<h4>Caso ocorra um erro, tente manualmente, as dependencias ja estao instaladas.</h4>
-
 <p>Em um novo terminal digite:</p>
 
 <code>sudo usbmuxd -f -p</code>
 
-<p>No primeiro terminal continue com os comandos:</p>
+<p>No primeiro terminal onde voce executou o script digite estes comandos:</p>
 
 <code>sudo ./palera1n.sh --tweaks SUA_VERSAO_IOS</code>
 
