@@ -40,7 +40,7 @@ if [ $resp -eq 1 ]
    cd ..
    echo -e "\n[*] Baixando Palera1n...\n"
 
-   git clone https://github.com/palera1n/palera1n &> /dev/null
+   git clone --recursive https://github.com/palera1n/palera1n &> /dev/null
    cd palera1n
    #printf "\033[0;32m[+] Digite sua versao do iOS ex: 16.1 \n"
    #read iosv
