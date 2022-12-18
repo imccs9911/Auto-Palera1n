@@ -43,10 +43,9 @@ if [ $resp -eq 1 ]
    git clone --recursive https://github.com/palera1n/palera1n &> /dev/null
    cd palera1n
    echo "[+] Palera1n Baixado!"
-   #printf "\033[0;32m[+] Digite sua versao do iOS ex: 16.1 \n"
-   #read iosv
    printf "\033[1;37m[*] Conecte seu aparelho em modo dfu e siga os digite os comandos a baixo\n"
-   echo "sudo ./palera1n.sh --tweaks $1"
+   printf "\ncd palera1n\n"
+   printf "\nsudo ./palera1n.sh --tweaks $1\n"
 else
    echo "[*] Saindo..."
    exit
