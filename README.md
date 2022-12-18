@@ -18,6 +18,12 @@ auto jailbreak using palera1n
 
 <code>sudo bash jailbreak 16.1</code>
 
+<h4>Metodo 2 Manual pós execuçao do script caso ocorra um erro.</h4>
+
+<code>cd palera1n</code>
+
+<code>sudo ./palera1n.sh --tweaks SUA_VERSAO_IOS</code>
+
 <p>Siga os procedimentos, quaisquer erro no programa entre em contato comigo via telegram <i>@joaoooo007</i></p>
 
 <p>Obrigado!</p>
