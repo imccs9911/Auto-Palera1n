@@ -18,8 +18,8 @@ if [ $resp -eq 1 ]
    sudo pip install pyimg4 &> /dev/null
    wget http://nz2.archive.ubuntu.com/ubuntu/pool/main/o/openssl/libssl1.1_1.1.1f-1ubuntu2.16_amd64.deb &> /dev/null
    wget https://github.com/CoocooFroggy/FutureRestore-GUI/releases/download/v1.98.2/FutureRestore-GUI-Debian-1.98.2.deb &> /dev/null
-   sudo apt install ./libssl1.1_1.1.1f-1ubuntu2.16_amd64.deb -y > /dev/null
-   sudo apt install ./FutureRestore-GUI-Debian-1.98.2.deb -y > /dev/null
+   sudo dpkg -i libssl1.1_1.1.1f-1ubuntu2.16_amd64.deb > /dev/null
+   sudo dpkg -i FutureRestore-GUI-Debian-1.98.2.deb > /dev/null
    git clone https://github.com/tihmstar/libgeneral > /dev/null
    cd libgeneral
    printf "\n[*] Compilando LIBGENERAL...\n\n"
