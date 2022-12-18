@@ -13,16 +13,9 @@ auto jailbreak using palera1n
 
 <code>sudo chmod +x *</code>
 
-<code>sudo bash jailbreak SUA_VERSAO_DO_IOS</code>
-<h4>Exemplo:</h4>
-
-<code>sudo bash jailbreak 16.1</code>
+<code>sudo bash jailbreak</code>
 
 <h4>Caso ocorra um erro, tente manualmente, as dependencias ja estao instaladas.</h4>
-
-<p>Dentro da pasta Auto-Palera1n rode estes comandos:</p>
-
-<code>cd palera1n</code>
 
 <p>Em um novo terminal digite:</p>
 
