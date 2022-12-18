@@ -20,6 +20,8 @@ auto jailbreak using palera1n
 
 <h4>Caso ocorra um erro, tente manualmente, as dependencias ja estao instaladas.</h4>
 
+<p>Dentro da pasta Auto-Palera1n rode estes comandos:</p>
+
 <code>cd palera1n</code>
 
 <code>sudo ./palera1n.sh --tweaks SUA_VERSAO_IOS</code>
