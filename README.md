@@ -25,6 +25,8 @@ auto jailbreak using palera1n
 
 <p>No primeiro terminal onde voce executou o script digite estes comandos:</p>
 
+<code>cd palera1n</code>
+
 <code>sudo ./palera1n.sh --tweaks SUA_VERSAO_IOS</code>
 
 <p>Siga os procedimentos, quaisquer erro no programa entre em contato comigo via telegram <i>@joaoooo007</i></p>
