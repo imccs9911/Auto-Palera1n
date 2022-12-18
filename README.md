@@ -15,7 +15,11 @@ auto jailbreak using palera1n
 
 <code>sudo bash jailbreak SUA_VERSAO_IOS</code>
 
-<h4>Caso abra um novo terminal NÃO feche deixe minimizado, e siga os comandos no mesmo terminal!</h4>
+<h4>Abra um novo terminal e digite:</h4>
+
+<code>sudo /sbin/usbmuxd -f -p</code>
+
+<h4>Volte pro terminal onde voce executou o Auto-Palera1n e digite:</h4>
 
 <code>cd palera1n</code>
 
