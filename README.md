@@ -15,7 +15,7 @@ auto jailbreak using palera1n
 
 <code>sudo bash jailbreak SUA_VERSAO_IOS</code>
 
-<h4>Caso abra um novo terminal nao feche!</h4>
+<h4>Caso abra um novo terminal NÃO feche!</h4>
 
 <code>cd palera1n</code>
 
