@@ -21,6 +21,10 @@ auto jailbreak using palera1n
 
 <code>sudo ./palera1n.sh --tweaks SUA_VERSAO_IOS</code>
 
+<h4>Caso queira remover o Jailbreak</h4>
+
+<code>sudo ./palera1n.sh --restorerootfs SUA_VERSAO_IOS</code>
+
 <p>Siga os procedimentos, quaisquer erro no programa entre em contato comigo via telegram <i>@joaoooo007</i></p>
 
 <p>Obrigado!</p>
