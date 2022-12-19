@@ -3,7 +3,7 @@ auto jailbreak using palera1n
 
 <h1>Instalação</h1>
 
-<h4>Funciona em qualquer distro linux baseada no <i><strong>Ubuntu 22.04</strong></i> pra cima de preferência <i><strong>Linux mint 21,</strong></i>  20.04 não e suportado!</h4>
+<h4>Funciona em qualquer distro linux baseada no <i><strong>Ubuntu 22.04</strong></i> pra cima de preferência <i><strong>Linux mint 21,</strong></i>  20.04 não é suportado!</h4>
 
 <pre>sudo apt install git -y</pre>
 
