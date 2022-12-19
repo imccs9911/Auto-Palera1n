@@ -11,7 +11,7 @@ auto jailbreak using palera1n
 
 <pre>cd Auto-Palera1n</pre>
 
-<code>sudo chmod +x *</code>
+<pre>sudo chmod +x *</pre>
 
 <pre>sudo bash jailbreak SUA_VERSAO_IOS</pre>
 
