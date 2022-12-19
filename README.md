@@ -1,9 +1,9 @@
 # Auto-Palera1n
 auto jailbreak using palera1n
 
-<h1>Instalaçao</h1>
+<h1>Instalação</h1>
 
-<h4>Funciona em qualquer distro linux baseada no ubuntu 22.04 pra cima de preferencia Linux mint 21, 20.04 nao e suportado!</h4>
+<h4>Funciona em qualquer distro linux baseada no <i><strong>Ubuntu 22.04</strong></i> pra cima de preferência <i><strong>Linux mint 21,</strong></i>, 20.04 não e suportado!</h4>
 
 <pre>sudo apt install git -y</pre>
 
@@ -19,7 +19,7 @@ auto jailbreak using palera1n
 
 <pre>sudo /sbin/usbmuxd -f -p</pre>
 
-<h4>Volte pro terminal onde voce executou o Auto-Palera1n e digite:</h4>
+<h4>Volte pro terminal onde você executou o Auto-Palera1n e digite:</h4>
 
 <pre>cd palera1n</pre>
 
